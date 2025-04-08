@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+header{
+    background-color: #a95184;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header img {
+    border-radius: 400px;
+    border: 20px solid #e5b8cf;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #fde3e6;
+    font-family: "Pacifico", cursive;
+}
+
+h1, h2 {
+    font-family: "Pacifico", cursive;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%; /*반응형 모드에 맞춰서 크기 맞춰줌*/
+}
+
+h2 {
+    font-size: 30px;
+    color: #a95184;
+    margin: 40px 0 10px;
+}
+
+a {
+    color: #a95184;
+}
+
+a:hover {
+    color: #fde3e6;
+    background-color: #a95184;
+}
+
+footer {
+    background-color: #a95184;
+    text-align: center;
+    color: #fde3e6;
+    padding: 50px;
+}
+
+footer a {
+    color: #fde3e6;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:hover {
+    opacity: 0.5;
+    color: #a95184;
+    background-color: #fde3e6;
+}
+
+p.caption {
+    color: #a95184;
+    font-style: italic;
+    margin-top: 0;
+}
